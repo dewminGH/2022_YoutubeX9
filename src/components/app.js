@@ -31,7 +31,8 @@ const App =()=>{
     return(<div className="root-div">
 
         <div className="ui container app">
-                      <SearchBar  onChange={setText}/> 
+                      <SearchBar  onChange={setText}
+                      label='Sreach Video youX9'/> 
          </div>
         <div className="ui grid">
         <div className="ui row">

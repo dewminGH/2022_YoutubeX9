@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import "../css/searchbar.css"
 
-const SearchBar= ({onChange})=>{
+const SearchBar= ({onChange,label})=>{
 
     const [text,setText]=useState('');
     const onInputchange=(e)=>{
@@ -20,7 +20,7 @@ const onInputSubmit=(e)=>{
              
             <form className="ui form" onSubmit={onInputSubmit}>
             <div className="ui feild">
-            <label>Search</label>
+            <label>{label}</label>
             <input type='text' 
              onChange={onInputchange}
              value={text}
