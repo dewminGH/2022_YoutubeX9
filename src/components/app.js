@@ -28,7 +28,7 @@ const App =()=>{
         })()
     },[text])
 
-    return(<div className="root-div">
+    return(<div className="root-div bk">
 
         <div className="ui container app">
                       <SearchBar  onChange={setText}
