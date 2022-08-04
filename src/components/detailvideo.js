@@ -3,7 +3,7 @@ import React from "react";
 const DetailVideo=({selected})=>{
 
     if(!selected.id)
-    return(<div>Loading..</div>)
+    return(<div>Reconnecting..</div>)
 
     const videoSrc=`https://www.youtube.com/embed/${selected.id.videoId}`;
     return(<div>
